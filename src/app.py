@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     # return render_template("solid/index.html")
-    return "HEllo World. With the New Changes"
+    return "HEllo World. With the New Changes In the Settings"
 
 
 if __name__ == "__main__":
